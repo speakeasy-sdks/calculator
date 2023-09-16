@@ -35,7 +35,7 @@ if res.calculate_200_text_plain_number is not None:
 ## Available Resources and Operations
 
 
-### [simple_calculator](docs/sdks/simplecalculator/README.md)
+### [SimpleCalculator](docs/sdks/simplecalculator/README.md)
 
 * [calculate](docs/sdks/simplecalculator/README.md#calculate) - Calculate
 <!-- End SDK Available Operations -->

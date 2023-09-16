@@ -1,4 +1,4 @@
-# simple_calculator
+# SimpleCalculator
 
 ### Available Operations
 
