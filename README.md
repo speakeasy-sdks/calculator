@@ -10,8 +10,6 @@ pip install git+https://github.com/speakeasy-sdks/calculator.git
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
-
-
 ```python
 import calculator
 from calculator.models import operations, shared
@@ -19,9 +17,9 @@ from calculator.models import operations, shared
 s = calculator.Calculator()
 
 req = operations.CalculateRequest(
-    operation=shared.OperationType.MULTIPLY,
-    x=5928.45,
-    y=7151.9,
+    operation=shared.OperationType.DIVIDE,
+    x=6027.63,
+    y=8579.46,
 )
 
 res = s.simple_calculator.calculate(req)
@@ -39,6 +37,32 @@ if res.calculate_200_text_plain_number is not None:
 
 * [calculate](docs/sdks/simplecalculator/README.md#calculate) - Calculate
 <!-- End SDK Available Operations -->
+
+
+
+<!-- Start Dev Containers -->
+
+
+
+<!-- End Dev Containers -->
+
+
+
+<!-- Start Pagination -->
+# Pagination
+
+Some of the endpoints in this SDK support pagination. To use pagination, you make your SDK calls as usual, but the
+returned response object will have a `Next` method that can be called to pull down the next group of results. If the
+return value of `Next` is `None`, then there are no more pages to be fetched.
+
+Here's an example of one such pagination call:
+
+
+<!-- End Pagination -->
+
+<!-- Placeholder for Future Speakeasy SDK Sections -->
+
+
 
 ### Maturity
 
