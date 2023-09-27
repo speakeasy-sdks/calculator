@@ -33,7 +33,7 @@ if res.calculate_200_text_plain_number is not None:
 ## Available Resources and Operations
 
 
-### [SimpleCalculator](docs/sdks/simplecalculator/README.md)
+### [simple_calculator](docs/sdks/simplecalculator/README.md)
 
 * [calculate](docs/sdks/simplecalculator/README.md#calculate) - Calculate
 <!-- End SDK Available Operations -->
@@ -41,8 +41,6 @@ if res.calculate_200_text_plain_number is not None:
 
 
 <!-- Start Dev Containers -->
-
-
 
 <!-- End Dev Containers -->
 
@@ -56,8 +54,6 @@ returned response object will have a `Next` method that can be called to pull do
 return value of `Next` is `None`, then there are no more pages to be fetched.
 
 Here's an example of one such pagination call:
-
-
 <!-- End Pagination -->
 
 <!-- Placeholder for Future Speakeasy SDK Sections -->
