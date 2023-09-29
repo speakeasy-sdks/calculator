@@ -8,9 +8,9 @@ from calculator.models import operations, shared
 s = calculator.Calculator()
 
 req = operations.CalculateRequest(
-    operation=shared.OperationType.MULTIPLY,
-    x=5928.45,
-    y=7151.9,
+    operation=shared.OperationType.SUBTRACT,
+    x=3946.69,
+    y=6431.33,
 )
 
 res = s.simple_calculator.calculate(req)

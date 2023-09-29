@@ -17,9 +17,9 @@ from calculator.models import operations, shared
 s = calculator.Calculator()
 
 req = operations.CalculateRequest(
-    operation=shared.OperationType.DIVIDE,
-    x=6027.63,
-    y=8579.46,
+    operation=shared.OperationType.SUBTRACT,
+    x=3946.69,
+    y=6431.33,
 )
 
 res = s.simple_calculator.calculate(req)
