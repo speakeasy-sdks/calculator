@@ -27,6 +27,7 @@ res = s.simple_calculator.calculate(req)
 
 if res.calculate_200_text_plain_number is not None:
     # handle response
+    pass
 ```
 
 ### Parameters
