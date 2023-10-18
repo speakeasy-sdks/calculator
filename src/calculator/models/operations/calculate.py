@@ -7,7 +7,6 @@ from ..shared import operationtype as shared_operationtype
 from typing import Optional
 
 
-
 @dataclasses.dataclass
 class CalculateRequest:
     operation: shared_operationtype.OperationType = dataclasses.field(metadata={'path_param': { 'field_name': 'operation', 'style': 'simple', 'explode': False }})
@@ -17,7 +16,6 @@ class CalculateRequest:
     y: float = dataclasses.field(metadata={'query_param': { 'field_name': 'y', 'style': 'form', 'explode': True }})
     r"""The RHS value"""
     
-
 
 
 
