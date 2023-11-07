@@ -15,7 +15,7 @@ req = operations.CalculateRequest(
 
 res = s.simple_calculator.calculate(req)
 
-if res.calculate_200_text_plain_number is not None:
+if res.res is not None:
     # handle response
     pass
 ```

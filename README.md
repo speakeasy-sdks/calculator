@@ -24,7 +24,7 @@ req = operations.CalculateRequest(
 
 res = s.simple_calculator.calculate(req)
 
-if res.calculate_200_text_plain_number is not None:
+if res.res is not None:
     # handle response
     pass
 ```
@@ -34,7 +34,7 @@ if res.calculate_200_text_plain_number is not None:
 ## Available Resources and Operations
 
 
-### [simple_calculator](docs/sdks/simplecalculator/README.md)
+### [.simple_calculator](docs/sdks/simplecalculator/README.md)
 
 * [calculate](docs/sdks/simplecalculator/README.md#calculate) - Calculate
 <!-- End SDK Available Operations -->
@@ -63,8 +63,6 @@ Here's an example of one such pagination call:
 # Error Handling
 
 Handling errors in your SDK should largely match your expectations.  All operations return a response object or raise an error.  If Error objects are specified in your OpenAPI Spec, the SDK will raise the appropriate Error type.
-
-
 <!-- End Error Handling -->
 
 
@@ -82,13 +80,12 @@ You can override the default server globally by passing a server index to the `s
 
 For example:
 
-
 ```python
 import calculator
 from calculator.models import operations, shared
 
 s = calculator.Calculator(
-    server_idx=0
+    server_idx=0,
 )
 
 req = operations.CalculateRequest(
@@ -99,7 +96,7 @@ req = operations.CalculateRequest(
 
 res = s.simple_calculator.calculate(req)
 
-if res.calculate_200_text_plain_number is not None:
+if res.res is not None:
     # handle response
     pass
 ```
@@ -109,13 +106,12 @@ if res.calculate_200_text_plain_number is not None:
 
 The default server can also be overridden globally by passing a URL to the `server_url: str` optional parameter when initializing the SDK client instance. For example:
 
-
 ```python
 import calculator
 from calculator.models import operations, shared
 
 s = calculator.Calculator(
-    server_url="https://examples.apimatic.io/apps/calculator"
+    server_url="https://examples.apimatic.io/apps/calculator",
 )
 
 req = operations.CalculateRequest(
@@ -126,7 +122,7 @@ req = operations.CalculateRequest(
 
 res = s.simple_calculator.calculate(req)
 
-if res.calculate_200_text_plain_number is not None:
+if res.res is not None:
     # handle response
     pass
 ```
@@ -150,8 +146,6 @@ http_client = requests.Session()
 http_client.headers.update({'x-custom-header': 'someValue'})
 s = calculator.Calculator(client: http_client)
 ```
-
-
 <!-- End Custom HTTP Client -->
 
 <!-- Placeholder for Future Speakeasy SDK Sections -->

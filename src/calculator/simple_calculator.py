@@ -32,7 +32,7 @@ class SimpleCalculator:
         
         if http_res.status_code == 200:
             if utils.match_content_type(content_type, 'text/plain'):
-                res.calculate_200_text_plain_number = http_res.content
+                res.res = http_res.content
             else:
                 raise errors.SDKError(f'unknown content-type received: {content_type}', http_res.status_code, http_res.text, http_res)
         elif http_res.status_code >= 400 and http_res.status_code < 500 or http_res.status_code >= 500 and http_res.status_code < 600:
