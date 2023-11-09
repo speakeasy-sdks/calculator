@@ -11,6 +11,7 @@ class SimpleCalculator:
         self.sdk_configuration = sdk_config
         
     
+    
     def calculate(self, request: operations.CalculateRequest) -> operations.CalculateResponse:
         r"""Calculate
         Calculates the expression using the specified operation.

@@ -1,5 +1,5 @@
 # SimpleCalculator
-(*.simple_calculator*)
+(*simple_calculator*)
 
 ### Available Operations
 
@@ -40,4 +40,8 @@ if res.res is not None:
 ### Response
 
 **[operations.CalculateResponse](../../models/operations/calculateresponse.md)**
+### Errors
 
+| Error Object    | Status Code     | Content Type    |
+| --------------- | --------------- | --------------- |
+| errors.SDKError | 400-600         | */*             |
