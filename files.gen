@@ -8,6 +8,7 @@ src/calculator/utils/__init__.py
 src/calculator/utils/retries.py
 src/calculator/utils/utils.py
 src/calculator/models/errors/sdkerror.py
+tests/helpers.py
 src/calculator/models/operations/calculate.py
 src/calculator/models/shared/operationtype.py
 src/calculator/models/__init__.py
