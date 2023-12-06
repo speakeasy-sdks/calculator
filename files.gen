@@ -15,10 +15,10 @@ src/calculator/models/__init__.py
 src/calculator/models/errors/__init__.py
 src/calculator/models/operations/__init__.py
 src/calculator/models/shared/__init__.py
-USAGE.md
 docs/models/operations/calculaterequest.md
 docs/models/operations/calculateresponse.md
 docs/models/shared/operationtype.md
 docs/sdks/calculator/README.md
 docs/sdks/simplecalculator/README.md
+USAGE.md
 .gitattributes
