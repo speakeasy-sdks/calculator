@@ -1,0 +1,41 @@
+lockVersion: 2.0.0
+id: 04fef57e-6848-4134-98a3-bbb06ab72a5b
+management:
+  docChecksum: 0411242429f73de7fff0ffe36881e327
+  docVersion: "1.0"
+  speakeasyVersion: internal
+  generationVersion: 2.225.2
+  releaseVersion: 0.10.1
+  configChecksum: 4f73d24fb7bf80cc4c18a91974ddae51
+  repoURL: https://github.com/speakeasy-sdks/calculator.git
+  repoSubDirectory: .
+  installationURL: https://github.com/speakeasy-sdks/calculator.git
+features:
+  python:
+    core: 4.4.0
+    globalServerURLs: 2.82.1
+generatedFiles:
+  - src/calculator/sdkconfiguration.py
+  - src/calculator/simple_calculator.py
+  - src/calculator/sdk.py
+  - pylintrc
+  - setup.py
+  - src/calculator/__init__.py
+  - src/calculator/utils/__init__.py
+  - src/calculator/utils/retries.py
+  - src/calculator/utils/utils.py
+  - src/calculator/models/errors/sdkerror.py
+  - tests/helpers.py
+  - src/calculator/models/operations/calculate.py
+  - src/calculator/models/shared/operationtype.py
+  - src/calculator/models/__init__.py
+  - src/calculator/models/errors/__init__.py
+  - src/calculator/models/operations/__init__.py
+  - src/calculator/models/shared/__init__.py
+  - docs/models/operations/calculaterequest.md
+  - docs/models/operations/calculateresponse.md
+  - docs/models/shared/operationtype.md
+  - docs/sdks/calculator/README.md
+  - docs/sdks/simplecalculator/README.md
+  - USAGE.md
+  - .gitattributes
