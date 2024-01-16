@@ -4,7 +4,7 @@ management:
   docChecksum: 0411242429f73de7fff0ffe36881e327
   docVersion: "1.0"
   speakeasyVersion: internal
-  generationVersion: 2.228.1
+  generationVersion: 2.233.2
   releaseVersion: 0.10.2
   configChecksum: 99d98b957b9cc5a4454e2d547e008c80
   repoURL: https://github.com/speakeasy-sdks/calculator.git
