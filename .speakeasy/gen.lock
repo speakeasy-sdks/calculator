@@ -4,15 +4,15 @@ management:
   docChecksum: 0411242429f73de7fff0ffe36881e327
   docVersion: "1.0"
   speakeasyVersion: internal
-  generationVersion: 2.245.1
-  releaseVersion: 0.10.4
-  configChecksum: 0cb5a12df0f348d470ce7a62ce7e7601
+  generationVersion: 2.248.1
+  releaseVersion: 0.11.0
+  configChecksum: 246124626649fe5aaa1dede4664acd22
   repoURL: https://github.com/speakeasy-sdks/calculator.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/calculator.git
 features:
   python:
-    core: 4.4.3
+    core: 4.4.4
     globalServerURLs: 2.82.1
 generatedFiles:
   - src/calculator/sdkconfiguration.py
