@@ -60,7 +60,7 @@ Handling errors in this SDK should largely match your expectations.  All operati
 
 ```python
 import calculator
-from calculator.models import operations, shared
+from calculator.models import errors, operations, shared
 
 s = calculator.Calculator()
 
@@ -74,7 +74,7 @@ res = None
 try:
     res = s.simple_calculator.calculate(req)
 except errors.SDKError as e:
-    print(e)  # handle exception
+    # handle exception
     raise(e)
 
 if res.res is not None:
