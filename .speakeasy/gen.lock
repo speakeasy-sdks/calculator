@@ -4,15 +4,15 @@ management:
   docChecksum: 0411242429f73de7fff0ffe36881e327
   docVersion: "1.0"
   speakeasyVersion: internal
-  generationVersion: 2.253.0
-  releaseVersion: 0.12.0
-  configChecksum: 39bdac589bc203914fc5fb0af4d59ebc
+  generationVersion: 2.275.4
+  releaseVersion: 0.13.0
+  configChecksum: 4f33c8cd139f821113ca34d86fda9b3b
   repoURL: https://github.com/speakeasy-sdks/calculator.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/calculator.git
 features:
   python:
-    core: 4.4.5
+    core: 4.5.0
     globalServerURLs: 2.82.1
 generatedFiles:
   - src/calculator/sdkconfiguration.py
@@ -39,3 +39,6 @@ generatedFiles:
   - docs/sdks/simplecalculator/README.md
   - USAGE.md
   - .gitattributes
+  - src/calculator/_hooks/sdkhooks.py
+  - src/calculator/_hooks/types.py
+  - src/calculator/_hooks/__init__.py
