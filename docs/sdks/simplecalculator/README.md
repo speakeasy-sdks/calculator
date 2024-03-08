@@ -28,6 +28,7 @@ res = s.simple_calculator.calculate(req)
 if res.res is not None:
     # handle response
     pass
+
 ```
 
 ### Parameters

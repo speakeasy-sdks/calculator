@@ -3,21 +3,23 @@ id: 04fef57e-6848-4134-98a3-bbb06ab72a5b
 management:
   docChecksum: 0411242429f73de7fff0ffe36881e327
   docVersion: "1.0"
-  speakeasyVersion: internal
-  generationVersion: 2.275.4
-  releaseVersion: 0.13.0
-  configChecksum: 4f33c8cd139f821113ca34d86fda9b3b
+  speakeasyVersion: 1.204.1
+  generationVersion: 2.279.1
+  releaseVersion: 0.14.0
+  configChecksum: 78e4de279f2f40054c4c9e4119d592e6
   repoURL: https://github.com/speakeasy-sdks/calculator.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/calculator.git
 features:
   python:
-    core: 4.5.0
+    core: 4.5.1
     globalServerURLs: 2.82.1
+    responseFormat: 0.1.0
 generatedFiles:
   - src/calculator/sdkconfiguration.py
   - src/calculator/simple_calculator.py
   - src/calculator/sdk.py
+  - py.typed
   - pylintrc
   - setup.py
   - src/calculator/__init__.py
